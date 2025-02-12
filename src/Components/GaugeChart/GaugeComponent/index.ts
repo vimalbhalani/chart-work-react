@@ -1,0 +1,10 @@
+import GaugeComponent from './GaugeComponent';
+export type { GaugeComponentProps, GaugeType } from './types/GaugeComponentProps';
+export type { Arc, SubArc } from './types/Arc';
+export type { Tooltip } from './types/Tooltip';
+export type { Labels, ValueLabel } from './types/Labels';
+export type { PointerContext, PointerProps, PointerRef, PointerType } from './types/Pointer';
+export type { Tick, TickLabels, TickLineConfig, TickValueConfig } from './types/Tick';
+export type { Angles, Dimensions, Margin } from './types/Dimensions';
+export { GaugeComponent };
+export default GaugeComponent;
